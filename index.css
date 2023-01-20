@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    background-color:#191816;
+  
+
+}
+form{
+position: absolute;
+width: 573px;
+height: 620px;
+margin-left: 200px;
+margin-top: 160px;
+
+
+
+
+
+background-color: #24221F;
+border-radius: 4px;
+}
+header{
+    position: absolute;
+    width: 334px;
+    height: 64px;
+    margin-left: 119px;
+    margin-top: 120px;
+
+    background-color: #24221F;
+    
+}
+
+div.email{
+    position: absolute;
+    width: 335px;
+    height: 73px;
+    margin-left: 119px;
+    margin-top: 204px;
+    background-color: #24221F;
+
+}
+.password{
+    position: absolute;
+    width: 335px;
+    height: 73px;
+    margin-left: 119px;
+    margin-top: 297px;
+    background-color: #24221F;
+}
+.logo{
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    left: 40px;
+    top: 43px;
+
+    
+}
+.camp{
+    position: absolute;
+    width: 77px;
+    height: 27px;
+    left: 78px;
+    top: 41px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+
+    color: #D5CCB6;
+
+}
+.seta{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    background-color: #24221F;
+
+}
+.login{
+    position: absolute;
+    width: 176px;
+    height: 36px;
+    left: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+
+
+    background-color: #24221F;
+    color: #D4CCB6;
+}
+.informe{
+    position: absolute;
+    width: 334px;
+    height: 23px;
+    top: 40px;
+
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    background-color: #24221F;
+    color: #AFB6C2;
+}
+.iconemail{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 18px;
+    margin-left: 5px;
+    background-color: #24221F;
+
+
+}
+ 
+#email{ 
+    box-sizing: border-box;
+    background-color: #24221F;
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    align-items: center;
+    border: 1px solid #FFC632;
+    box-shadow: 0px 0px 0px 2px #FFDE88;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding-left: 30px;
+    color: white;
+}
+.mail{
+   
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    background-color: #24221F;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #AFB6C2;
+}
+
+.senha{
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    background-color: #24221F;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #AFB6C2;
+
+
+}
+.lock{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 18px;
+    background-color: #24221F;
+
+}
+#pass{
+    box-sizing: border-box;
+    background-color: #24221F;
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 30px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    color: white;
+}
+     
+
+.check{
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 119px;
+    margin-top: 390px;
+
+    border: 1px solid #868686;
+    border-radius: 4px;
+    
+    
+}
+.lembre{
+    box-sizing: border-box;
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    margin-left: 159px;
+    margin-top: 390px;
+    color: white;
+    background-color: #24221F;
+
+}
+.esqueci{
+    position: absolute;
+    width: 140;
+    height: 21px;
+    left: 320px;
+    top: 390px;
+    background-color: #24221F;
+    color: #FFC632;
+}
+.buton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 334px;
+    height: 51px;
+    left: 119px;
+    top: 420px;
+    font-size: 18px;
+    background: #FFC632;
+    border-radius: 4px;
+    transition : filtro 0,2 s ;
+} 
+.buton:hover{
+    filter: brightness(0.9);
+}
+strong{
+    background-color: #24221F;
+}
+.cadastro{
+position: absolute;
+width: 235px;
+height: 21px;
+left: 200px;
+top: 480px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FFC632;
+background-color: #24221F;
+}
+
+.imagem{
+position: fixed;
+width: 1060px;
+height:1080px;
+margin-left: 920px;
+
+
+background: url(pexels-uriel-mont-6271725.jpg);
+}
